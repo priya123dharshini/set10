@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+ float kel,cel;
+ printf("enter temperature in kelvin");
+ scanf("%f",&kel);
+ cel=kel+273.15;
+ printf("the value in celsius is %f",cel);
+ }
